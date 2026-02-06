@@ -1,10 +1,23 @@
 # Changelog
 
-All notable changes to GSD will be documented in this file.
+All notable changes to **Get Shit Done — Better with Anthropic** will be documented in this file.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
+
+## [Fork] 0.1.0 - 2026-02-06
+
+Forked from [Get Shit Done](https://github.com/glittercowboy/get-shit-done/) v1.11.2 by Lex Christopherson ([@glittercowboy](https://github.com/glittercowboy)).
+
+### Changed
+- Updated LICENSE with fork author copyright (original copyright preserved)
+- Updated package.json (name, author, repository, contributors)
+- Updated README with fork attribution and Anthropic-only focus
+
+---
+
+## Original Changelog (upstream Get Shit Done)
 
 ## [1.11.2] - 2026-02-05
 

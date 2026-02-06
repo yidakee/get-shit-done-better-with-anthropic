@@ -1,52 +1,31 @@
 <div align="center">
 
-# GET SHIT DONE
+![GSD Better with Anthropic](assets/gsd-better-with-anthropic-logo.png)
 
-**A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode, and Gemini CLI.**
+# GET SHIT DONE — Better with Anthropic
 
-**Solves context rot — the quality degradation that happens as Claude fills its context window.**
+**An Anthropic-focused fork of [Get Shit Done](https://github.com/glittercowboy/get-shit-done/) — meta-prompting, context engineering and spec-driven development, tailored exclusively for Claude Code.**
 
-[![npm version](https://img.shields.io/npm/v/get-shit-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/get-shit-done-cc)
-[![npm downloads](https://img.shields.io/npm/dm/get-shit-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/get-shit-done-cc)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5JJgD5svVS)
-[![GitHub stars](https://img.shields.io/github/stars/glittercowboy/get-shit-done?style=for-the-badge&logo=github&color=181717)](https://github.com/glittercowboy/get-shit-done)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
-
-<br>
-
-```bash
-npx get-shit-done-cc
-```
-
-**Works on Mac, Windows, and Linux.**
-
-<br>
-
-![GSD Install](assets/terminal.svg)
-
-<br>
-
-*"If you know clearly what you want, this WILL build it for you. No bs."*
-
-*"I've done SpecKit, OpenSpec and Taskmaster — this has produced the best results for me."*
-
-*"By far the most powerful addition to my Claude Code. Nothing over-engineered. Literally just gets shit done."*
-
-<br>
-
-**Trusted by engineers at Amazon, Google, Shopify, and Webflow.**
-
-[Why I Built This](#why-i-built-this) · [How It Works](#how-it-works) · [Commands](#commands) · [Why It Works](#why-it-works)
+[![GitHub stars](https://img.shields.io/github/stars/yidakee/get-shit-done-better-with-anthropic?style=for-the-badge&logo=github&color=181717)](https://github.com/yidakee/get-shit-done-better-with-anthropic)
 
 </div>
 
 ---
 
-## Why I Built This
+## Attribution
 
-I'm a solo developer. I don't write code — Claude Code does.
+This project is a fork of **[Get Shit Done](https://github.com/glittercowboy/get-shit-done/)** by **Lex Christopherson** ([@glittercowboy](https://github.com/glittercowboy)), forked at **v1.11.2** (2026-02-06).
 
-Other spec-driven development tools exist; BMAD, Speckit... But they all seem to make things way more complicated than they need to be (sprint ceremonies, story points, stakeholder syncs, retrospectives, Jira workflows) or lack real big picture understanding of what you're building. I'm not a 50-person software company. I don't want to play enterprise theater. I'm just a creative person trying to build great things that work.
+The original project is an excellent multi-runtime meta-prompting system supporting Claude Code, OpenCode, and Gemini CLI. This fork strips multi-vendor support and focuses exclusively on Anthropic's Claude, removing unnecessary abstraction layers and tailoring the workflow for Claude-only usage.
+
+**If you want multi-runtime support, use the original:** [github.com/glittercowboy/get-shit-done](https://github.com/glittercowboy/get-shit-done/)
+
+---
+
+## Why This Fork
+
+The original GSD is great. This fork exists for a specific reason: if you only use Claude Code, the multi-vendor abstraction is unnecessary weight. This fork strips it down and will evolve to leverage Anthropic-specific capabilities that a multi-vendor project can't.
 
 So I built GSD. The complexity is in the system, not in your workflow. Behind the scenes: context engineering, XML prompt formatting, subagent orchestration, state management. What you see: a few commands that just work.
 

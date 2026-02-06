@@ -1,9 +1,9 @@
 {
-  "name": "get-shit-done-cc",
-  "version": "1.11.2",
-  "description": "A meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode and Gemini by TÂCHES.",
+  "name": "get-shit-done-better-with-anthropic",
+  "version": "0.1.0",
+  "description": "An Anthropic-focused fork of Get Shit Done — meta-prompting, context engineering and spec-driven development for Claude Code. Originally by TÂCHES.",
   "bin": {
-    "get-shit-done-cc": "bin/install.js"
+    "get-shit-done-better-with-anthropic": "bin/install.js"
   },
   "files": [
     "bin",
@@ -16,22 +16,27 @@
   "keywords": [
     "claude",
     "claude-code",
+    "anthropic",
     "ai",
     "meta-prompting",
     "context-engineering",
-    "spec-driven-development",
-    "gemini",
-    "gemini-cli"
+    "spec-driven-development"
   ],
-  "author": "TÂCHES",
+  "author": "Tiago Serodio",
+  "contributors": [
+    {
+      "name": "TÂCHES (Lex Christopherson)",
+      "url": "https://github.com/glittercowboy/get-shit-done"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glittercowboy/get-shit-done.git"
+    "url": "git+https://github.com/yidakee/get-shit-done-better-with-anthropic.git"
   },
-  "homepage": "https://github.com/glittercowboy/get-shit-done",
+  "homepage": "https://github.com/yidakee/get-shit-done-better-with-anthropic",
   "bugs": {
-    "url": "https://github.com/glittercowboy/get-shit-done/issues"
+    "url": "https://github.com/yidakee/get-shit-done-better-with-anthropic/issues"
   },
   "engines": {
     "node": ">=16.7.0"
